@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'login',
     'captcha',
+    'polls',
 ]
 
 MIDDLEWARE = [
@@ -125,7 +126,7 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.qq.com'
 EMAIL_PORT = 25
 EMAIL_HOST_USER = 'mipenghui@qq.com'
-EMAIL_HOST_PASSWORD = 'xxxxxxx'
+EMAIL_HOST_PASSWORD = 'xxxxxxxxxxxx'
 
 # 注册有效期天数
 CONFIRM_DAYS = 7
